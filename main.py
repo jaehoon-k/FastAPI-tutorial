@@ -4,6 +4,8 @@ from typing import Annotated
 from fastapi import FastAPI, Query, Path
 from pydantic import BaseModel
 
+# Testing rebase
+
 class ModelName(str, Enum):
     alexnet = "alexnet"
     resnet = "resnet"
