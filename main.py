@@ -4,7 +4,7 @@ from typing import Annotated
 from fastapi import FastAPI, Query, Path, Body
 from pydantic import BaseModel
 
-# Testing rebase
+# Testing rebase #2
 
 class ModelName(str, Enum):
     alexnet = "alexnet"
